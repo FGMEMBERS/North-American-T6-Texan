@@ -1,32 +1,22 @@
 default
 
-These liveries were made by : BARANGER Emmanuel 2010
+These liveries were made by : BARANGER Emmanuel 2013
 
-Thanks to him.
+SE-CHP (Low/High)
 
-VF-27
+NZ1079 (Low/High)
 
-These liveries were made by : Starreja 2010
+FX215  (Low/High)
 
-Thanks to him.
+N645DS (Low/High)
 
-royalnavy
+N211A  (Low/High)
 
-unitedstatesnavy
+AA615  (Low/High)
 
-These liveries were made by : floer95 2010
+AJ838  (Low/High)
 
-Thanks to him.
-
-F6FTulagi     : F6F USS Tulagi VOF-1 Mediterranean, 1944
-
-F6FBellauWood : F6F USS Belleau Woods VF-21 1944, W. Pacific
-
-F6F-captured  : F6F Captured Okinawa, 1945
-
-F6FTexture    : F6F Drone USN 1946
-
-These liveries were made by : Herve 2012
+These liveries were made by : Brett HARRISON 2013
 
 Thanks to him.
 
