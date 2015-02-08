@@ -106,5 +106,64 @@
     </offsets>
   </model>
 
+  <!-- Note -->
+  <model>
+    <path>Aircraft/North-American-T6-Texan/Models/Interior/Panel/Instruments/note/note.xml</path>
+    <offsets>
+      <x-m> -0.00114 </x-m>
+      <y-m>  0.03102 </y-m>
+      <z-m>  0.13008 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Carb -->
+  <model>
+    <path>Aircraft/North-American-T6-Texan/Models/Interior/Panel/Instruments/carb/carb.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.138 </y-m>
+      <z-m>  0.151 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Fuel -->
+  <model>
+    <path>Aircraft/North-American-T6-Texan/Models/Interior/Panel/Instruments/fuel/fuel.xml</path>
+    <offsets>
+      <x-m> -0.001 </x-m>
+      <y-m> -0.097 </y-m>
+      <z-m>  0.166 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- MANIFOLD -->
+  <model>
+    <path>Aircraft/North-American-T6-Texan/Models/Interior/Panel/Instruments/manifold/man.xml</path>
+    <offsets>
+      <x-m> -0.006 </x-m>
+      <y-m>  0.138 </y-m>
+      <z-m>  0.036 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- AMMETER -->
+  <model>
+    <path>Aircraft/North-American-T6-Texan/Models/Interior/Panel/Instruments/ammeter/ammeter.xml</path>
+    <offsets>
+      <x-m> -0.004 </x-m>
+      <y-m> -0.213 </y-m>
+      <z-m>  0.068 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- PSI -->
+  <model>
+    <path>Aircraft/North-American-T6-Texan/Models/Interior/Panel/Instruments/psi/psi.xml</path>
+    <offsets>
+      <x-m> -0.005 </x-m>
+      <y-m>  0.104 </y-m>
+      <z-m> -0.187 </z-m>
+    </offsets>
+  </model>
+  
 </PropertyList>
-
