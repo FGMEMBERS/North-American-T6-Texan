@@ -9,10 +9,10 @@
     <object-name>fond</object-name>
     <object-name>Switch-Starter</object-name>
     <emission>
-      <red>   1.0 </red>
-      <green> 0.2 </green>
-      <blue>  0.0 </blue>
       <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
+      <red>   0.50 </red>
+      <green> 0.25 </green>
+      <blue>  0.25 </blue>
     </emission>
   </animation>
 
@@ -50,7 +50,7 @@
     <type>translate</type>
     <object-name>Switch-Starter</object-name>
     <property>controls/switches/starter</property>
-    <factor>0.005</factor>
+    <factor> 0.005 </factor>
     <axis>
       <x> -1 </x>
       <y>  0 </y>
@@ -58,7 +58,7 @@
     </axis>
   </animation>
 
-<!--
+  <!--
   <animation>
     <type>pick</type>
     <visible>true</visible>
@@ -88,6 +88,6 @@
       </mod-up>
     </action>
   </animation>
--->
+  -->
 
 </PropertyList>

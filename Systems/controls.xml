@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <engines>
+    <engine n="0">
+      <magnetos>0</magnetos>
+    </engine>
+  </engines>
+  
+  <lighting>
+    <instruments-norm>1</instruments-norm>
+  </lighting>
+  
+  <flight>
+    <elevator-trim>-0.02</elevator-trim>
+  </flight>
+  
+</PropertyList>

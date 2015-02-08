@@ -3,21 +3,16 @@
 <PropertyList>
   
   <sim>
-  
+    
     <model>
       <livery>
         <name type="string">N211A US Navy Pensacola (Low)</name>
-        <texture>Liveries/Low/N211A.png</texture>
-          <specular>
-            <red>   0.3 </red>
-            <green> 0.3 </green>
-            <blue>  0.3 </blue>
-          </specular>
-          <emission>
-            <red>   0.2 </red>
-            <green> 0.2 </green>
-            <blue>  0.2 </blue>
-          </emission>
+        <texture>Liveries/1024x1024/N211A.png</texture>
+        <specular>
+          <red>   0.3 </red>
+          <green> 0.3 </green>
+          <blue>  0.3 </blue>
+        </specular>
       </livery>
     </model>
     
