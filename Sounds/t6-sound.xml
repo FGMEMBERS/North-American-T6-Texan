@@ -197,10 +197,10 @@
     </flap>
 
     <canopy> 
-      <name>canopy slide</name>
+      <name>pilot canopy slide</name>
       <mode>in-transit</mode>
       <path>Aircraft/North-American-T6-Texan/Sounds/canopy_slide.wav</path>
-      <property>/instrumentation/doors/crew/position-norm</property>
+      <property>sim/model/door-positions/crew/position-norm</property>
       <volume> 
         <factor>0.3</factor>
       </volume>
@@ -210,15 +210,35 @@
       <max-dist>1000</max-dist>
     </canopy>
 
+    <canopy> 
+      <name>copilot canopy slide</name>
+      <mode>in-transit</mode>
+      <path>Aircraft/North-American-T6-Texan/Sounds/canopy_slide.wav</path>
+      <property>sim/model/door-positions/passenger/position-norm</property>
+      <volume> 
+        <factor>0.3</factor>
+      </volume>
+      <reference-dist>10.0</reference-dist>
+      <max-dist>20.0</max-dist>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </canopy>
+    
     <wind-canopy-closed> 
       <name>wind</name>
       <mode>looped</mode>
       <path>Sounds/wind.wav</path>
-      <condition> 
-        <equals> 
-          <property>/instrumentation/doors/crew/position-norm</property>
-          <value>0</value>
-        </equals>
+      <condition>
+        <and>
+          <equals> 
+            <property>sim/model/door-positions/crew/position-norm</property>
+            <value>0</value>
+          </equals>
+          <equals> 
+            <property>sim/model/door-positions/passenger/position-norm</property>
+            <value>0</value>
+          </equals>
+        </and>
       </condition>
       <property>/velocities/airspeed-kt</property>
       <volume> 
@@ -248,10 +268,16 @@
       <mode>looped</mode>
       <path>Sounds/wind.wav</path>
       <condition> 
-        <greater-than> 
-          <property>/instrumentation/doors/crew/position-norm</property>
-          <value>0.01</value>
-        </greater-than>
+        <and>
+          <greater-than> 
+            <property>sim/model/door-positions/crew/position-norm</property>
+            <value>0.01</value>
+          </greater-than> 
+          <greater-than> 
+            <property>sim/model/door-positions/passenger/position-norm</property>
+            <value>0.01</value>
+          </greater-than> 
+        </and>
       </condition>
       <property>/velocities/airspeed-kt</property>
       <volume> 
@@ -376,20 +402,6 @@
       </volume>
     </click>
 
-    <guns> 
-      <name>gunfire</name>
-      <mode>looped</mode>
-      <path>Aircraft/North-American-T6-Texan/Sounds/gunfire.wav</path>
-      <condition> 
-        <property>controls/armament/trigger</property>
-        <property>ai/submodels/submodel/count</property>
-      </condition>
-      <volume> 
-        <factor>1.2</factor>
-        <max>1.0</max>
-      </volume>
-    </guns>
-
     <click> 
       <name>nav lights click down</name>
       <path>Sounds/click.wav</path>
@@ -418,6 +430,32 @@
       </volume>
     </click>
 
+    <rain>
+      <name>rain</name>
+      <mode>looped</mode>
+      <path>Aircraft/North-American-T6-Texan/Sounds/rain_canopy.wav</path>
+      <condition>
+        <greater-than>
+          <property>/environment/metar/rain-norm</property>
+          <value>0.2</value>
+        </greater-than>
+      </condition>
+      <volume>
+        <property>/environment/metar/rain-norm</property>
+        <factor>1.00</factor>
+        <offset>0.00</offset>
+        <min>0.4</min>
+        <max>0.9</max>
+      </volume>
+      <pitch>
+        <property>/velocities/airspeed-kt</property>
+        <factor>0.001</factor>
+        <offset>1.0</offset>
+      </pitch>
+      <reference-dist>100</reference-dist>
+      <max-dist>1000</max-dist>
+    </rain>
+    
   </fx>
 
 </PropertyList>

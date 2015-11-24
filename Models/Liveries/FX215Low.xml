@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Harvard Mk.IIb, No.16 (Polish) FTS RAF Newton -->
+
 <PropertyList>
   
   <sim>
     
     <model>
       <livery>
-        <name type="string">FX215 RAF (Low)</name>
+        <name type="string">(Low) Harvard Mk.IIb, No.16 (Polish) FTS RAF Newton</name>
         <texture>Liveries/1024x1024/FX215.png</texture>
         <specular>
           <red>   0.3 </red>

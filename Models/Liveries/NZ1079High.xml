@@ -6,7 +6,7 @@
     
     <model>
       <livery>
-        <name type="string">NZ1079-RNZAF (High)</name>
+        <name type="string">(High) NZ1079-RNZAF</name>
         <texture>Liveries/2048x2048/NZ1079.png</texture>
         <specular>
           <red>   0.3 </red>

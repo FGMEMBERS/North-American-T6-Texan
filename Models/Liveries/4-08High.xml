@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-
+<!-- Harvard Mk.II, RAF, Mediterranean 1944 -->
 <PropertyList>
   
   <sim>
     
     <model>
       <livery>
-        <name type="string">(High) N645DS US Navy Guantanamo Bay</name>
-        <texture>Liveries/2048x2048/N645DS.png</texture>
+        <name type="string">(High) 4 Gruppo Caccia</name>
+        <texture>Liveries/2048x2048/4-08.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>

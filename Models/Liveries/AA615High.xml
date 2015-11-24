@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Harvard Mk.IV, Luftwaffe, on display in the Luftwaffenmuseum at Gatow -->
+
 <PropertyList>
   
   <sim>
     
     <model>
       <livery>
-        <name type="string">AA615 Luftwaffe (High)</name>
+        <name type="string">(High) Harvard Mk.IV, Luftwaffe, on display in the Luftwaffenmuseum at Gatow</name>
         <texture>Liveries/2048x2048/AA615.png</texture>
         <specular>
           <red>   0.3 </red>

@@ -6,7 +6,7 @@
     
     <model>
       <livery>
-        <name type="string">SE-CHP Snoopy (High)</name>
+        <name type="string">(High) SE-CHP Snoopy</name>
         <texture>Liveries/2048x2048/SE-CHP.png</texture>
         <specular>
           <red>   0.3 </red>
