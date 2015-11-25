@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Harvard Mk.II, RAF, Mediterranean 1944 -->
+
 <PropertyList>
   
   <sim>
     
     <model>
       <livery>
-        <name type="string">AJ838-RAF (Low)</name>
+        <name type="string">(Low) Harvard Mk.II, RAF, Mediterranean 1944</name>
         <texture>Liveries/1024x1024/AJ838.png</texture>
         <specular>
           <red>   0.3 </red>

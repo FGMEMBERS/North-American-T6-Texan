@@ -6,7 +6,7 @@
     
     <model>
       <livery>
-        <name type="string">N211A US Navy Pensacola (High)</name>
+        <name type="string">(High) N211A US Navy Pensacola</name>
         <texture>Liveries/2048x2048/N211A.png</texture>
         <specular>
           <red>   0.3 </red>

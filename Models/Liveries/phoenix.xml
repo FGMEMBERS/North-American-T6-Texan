@@ -6,8 +6,8 @@
     
     <model>
       <livery>
-        <name type="string">(High) N645DS US Navy Guantanamo Bay</name>
-        <texture>Liveries/2048x2048/N645DS.png</texture>
+        <name type="string">(High) T6 Phoenix</name>
+        <texture>Liveries/2048x2048/phoenix.png</texture>
         <specular>
           <red>   0.3 </red>
           <green> 0.3 </green>

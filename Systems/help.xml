@@ -2,23 +2,15 @@
 
 <PropertyList>
   
-  <title>GRUMANN TBM t6</title>
+  <title>North American T6 Texan</title>
   <line>______________________________________________</line>
   <key>
     <name>d</name>
-    <desc>Open/Close canpy</desc>
+    <desc>Open/Close pilot canpy</desc>
   </key>
   <key>
-    <name>e</name>
-    <desc>Guns fire</desc>
-  </key>
-  <key>
-    <name>E</name>
-    <desc>Open/Close wings</desc>
-  </key>
-  <key>
-    <name>o/O</name>
-    <desc>Hook up/down</desc>
+    <name>D</name>
+    <desc>Open/Close copilot canpy</desc>
   </key>
   
 </PropertyList>

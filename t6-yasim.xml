@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!-- North American T6 Texan - 2013 Emmanuel BARANGER
-                     Updated - 2015 Emmanuel BARANGER
+<!-- North American T6 Texan - 07-2013 Emmanuel BARANGER
+                     Updated - 02-2015 Emmanuel BARANGER
+                     Updated = 11-2015 Emmanuel BARANGER
    
      sources          : http://en.wikipedia.org/wiki/North_American_T-6_Texan
      wingspan         : 12.81 m    (   42 ft      )
@@ -15,7 +16,7 @@
 
 <airplane mass="4158" version="YASIM_VERSION_CURRENT">
 
-  <approach speed="55" aoa="1" fuel="0.2">
+  <approach speed="50" aoa="2" fuel="0.2">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.2"/>
     <control-setting axis="/controls/engines/engine[0]/mixture" value="1"/>
     <control-setting axis="/controls/engines/engine[0]/propeller-pitch" value="1"/>
@@ -55,7 +56,7 @@
         taper="0.5" 
         dihedral="3"
         sweep="3.5"
-        camber="0.005">
+        camber="0.001">
         <stall aoa="16" width="1" peak="1.5"/>
         <flap0 start="0.00" end="0.57" lift="1.5" drag="1.2"/>
         <flap1 start="0.57" end="1.00" lift="1.2" drag="1.1"/>
@@ -75,8 +76,8 @@
          length="1.979" 
          taper="0.58"
          sweep="10">
-         <stall aoa="16" width="1" peak="1.5"/>
-         <flap0 start="0" end="1" lift="1.4" drag="1.1"/>
+         <stall aoa="18" width="1" peak="1.5"/>
+         <flap0 start="0" end="1" lift="1.2" drag="1.1"/>
 
          <control-input axis="/controls/flight/elevator" control="FLAP0"/>
          <control-input axis="/controls/flight/elevator-trim" control="FLAP0"/>
@@ -89,7 +90,7 @@
          length="1.856" 
          taper="0.30"
          sweep="10">
-         <stall aoa="14" width="1" peak="1.5"/>
+         <stall aoa="12" width="1" peak="1.5"/>
          <flap0 start="0" end="1" lift="1.2" drag="1.1"/>
 
          <control-input axis="/controls/flight/rudder" control="FLAP0" invert="true"/>
@@ -106,20 +107,20 @@
                  weight       : 805 lb (365 kg)
                  Displacement : 1343.8 in3 (22.02 l)
                  Compression  : 6.0:1
-
+  min-rpm="200"
+  max-rpm="2300">
+  
   -->
   <propeller x="3.7" y="0" z="-0.09"
              mass="805" 
              radius="1.38"
-             moment="5"
+             moment="12"
              cruise-speed="126" 
              cruise-alt="5000"
              cruise-rpm="2200"
-             cruise-power="550"
+             cruise-power="542"
              takeoff-power="600" 
-             takeoff-rpm="2300"
-             min-rpm="200"
-             max-rpm="2300">
+             takeoff-rpm="2300">
              <actionpt x="4.08166" y="0" z="-0.09"/>
              <control-input axis="/controls/engines/engine[0]/propeller-pitch" control="ADVANCE" />
              <piston-engine eng-power="600"
@@ -135,6 +136,7 @@
 
   <gear x="2.29809" y="1.32496" z="-1.78338"
         compression="0.2"
+        spring="0.8"
         retract-time="7">
         <control-input axis="/controls/gear/brake-left" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
@@ -144,7 +146,8 @@
   </gear>
 
   <gear x="2.29809" y="-1.32496" z="-1.78338"
-        compression="0.2" 
+        compression="0.2"
+        spring="0.8"
         retract-time="7">
         <control-input axis="/controls/gear/brake-right" control="BRAKE"/>
         <control-input axis="/controls/gear/brake-parking" control="BRAKE"/>
@@ -154,8 +157,8 @@
   </gear>
 
   <gear x="-3.39049" y="0" z="-0.64732"
-        compression="0.2"
-        retract-time="7">
+        compression="0.1"
+        spring="0.8">
         <control-input axis="/controls/flight/rudder" control="STEER" src0="-1.0" src1="1.0" dst0=".25" dst1="-.25"/>
   </gear>
 
