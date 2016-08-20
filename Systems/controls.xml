@@ -4,6 +4,7 @@
 
   <engines>
     <engine n="0">
+      <on type="bool">false</on>
       <magnetos>0</magnetos>
     </engine>
   </engines>

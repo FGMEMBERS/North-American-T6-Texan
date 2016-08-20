@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<PropertyList include="t6-base.xml">
+<PropertyList include="Systems/t6-base.xml">
 
   <sim>
 
     <description>North American T6 Texan (YASim)</description>
     <author>Emmanuel BARANGER (3D/FDM)</author>
 
+    <status>devel</status>
+    
     <flight-model>yasim</flight-model>
-    <aero>t6-yasim</aero>
+    <aero>Systems/t6-yasim</aero>
     
     <rating>
       <FDM type="int">     2 </FDM>
