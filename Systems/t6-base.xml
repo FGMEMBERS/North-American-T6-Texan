@@ -2,11 +2,7 @@
 
 <PropertyList>
 
-  <sim include="Systems/views.xml">
-
-    <description>North American T6 Texan (YASim)</description>
-    <author>Emmanuel BARANGER (3D/FDM)</author>
-    <status>devel</status>
+  <sim include="views.xml">
 
     <fuel-fraction>1</fuel-fraction>
 
@@ -57,17 +53,17 @@
       </generic>
     </multiplay>
     
-    <help include="Systems/help.xml"/>
+    <help include="help.xml"/>
 
-    <menubar include="Dialogs/t6-menu.xml"/>
+    <menubar include="../Dialogs/t6-menu.xml"/>
 
   </sim>
 
-  <input include="Systems/t6-keyboard.xml"/>
+  <input include="t6-keyboard.xml"/>
   
-  <engines include="Systems/engines.xml"/>
+  <engines include="engines.xml"/>
   
-  <consumables include="Systems/consumables.xml"/>
+  <consumables include="consumables.xml"/>
   
   <nasal>
     <doors>

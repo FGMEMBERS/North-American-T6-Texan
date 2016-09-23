@@ -19,13 +19,6 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/North-American-T6-Texan/Models/Effects/Glass/glass</inherits-from>
-    <object-name>intvitres</object-name>
-    <object-name>intvitreverriereA</object-name>
-    <object-name>intvitreverriereB</object-name>
-  </effect>
-  
-  <effect>
     <inherits-from>Effects/model-transparent</inherits-from>
     <object-name>intvitres</object-name>
     <object-name>intvitreverriereA</object-name>

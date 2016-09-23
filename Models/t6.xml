@@ -4,6 +4,11 @@
 
   <path>t6.ac</path>
 
+  <!-- MP sound call -->
+  <sound>
+    <path>Aircraft/North-American-T6-Texan/Sounds/mp-sound.xml</path>
+  </sound>
+  
   <nasal>
     <load>
       var livery_update = aircraft.livery_update.new("Aircraft/North-American-T6-Texan/Models/Liveries", 10);
@@ -160,17 +165,10 @@
     <object-name>vitres</object-name>
     <object-name>vitreverriereA</object-name>
     <object-name>vitreverriereB</object-name>
-  </effect>
-  
-  <effect>
-    <inherits-from>Effects/model-transparent</inherits-from>
-    <condition>
-      <property>sim/rendering/rembrandt/enabled</property>
-    </condition>
     <object-name>propblur</object-name>
     <object-name>propdisc</object-name>
   </effect>
-
+  
   <!-- Une ombre pour OSG -->
   <model>
     <path>Aircraft/North-American-T6-Texan/Models/shadow.xml</path>
@@ -183,7 +181,6 @@
 
   <!-- Interior -->
   <model>
-    <usage>interior</usage>
     <path>Aircraft/North-American-T6-Texan/Models/Interior/interior.xml</path>
   </model>
 
@@ -204,7 +201,7 @@
       <x-m> -3.03877 </x-m>
       <y-m>  0.74194 </y-m>
       <z-m> -0.24255 </z-m>
-      <pitch-deg>  45 </pitch-deg>
+      <pitch-deg> 45 </pitch-deg>
     </offsets>
   </model>
 
